@@ -93,7 +93,7 @@
             this.lblErrorMessage.AutoSize = true;
             this.lblErrorMessage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblErrorMessage.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblErrorMessage.ForeColor = System.Drawing.Color.DarkGray;
+            this.lblErrorMessage.ForeColor = System.Drawing.Color.DarkRed;
             this.lblErrorMessage.Image = ((System.Drawing.Image)(resources.GetObject("lblErrorMessage.Image")));
             this.lblErrorMessage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblErrorMessage.Location = new System.Drawing.Point(282, 211);

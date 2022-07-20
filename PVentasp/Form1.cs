@@ -67,23 +67,24 @@ namespace PVentasp
             {
                 if (txtPass.Text != "Contraseña")
                 {
-                   //// nUsers user = new nUsers();
-                   // var validlogin = user.LoginUser(txtUser.Text.Trim(), txtPass.Text);
-                   // if (validlogin == true)
-                   // {
-                   //     this.Hide();
-                   //  //   fHome frm = new fHome();
-                   //    // frm.FormClosed += Logout;
-                   //     //frm.Show();
-                   // }
-                   // else
-                   // {
-                   //     msError("Usuario o Contraseña incorrectos. \n Porfavor intente de Nuevo");
-                   //     txtPass.Clear();
-                   //     txtPass_Enter(null, e);
-                   //     //txtPass_Leave(null, e);
-                   // }
-
+                    //// nUsers user = new nUsers();
+                    // var validlogin = user.LoginUser(txtUser.Text.Trim(), txtPass.Text);
+                    // if (validlogin == true)
+                    // {
+                    //     this.Hide();
+                    //  //   fHome frm = new fHome();
+                    //    // frm.FormClosed += Logout;
+                    //     //frm.Show();
+                    // }
+                    // else
+                    // {
+                    //     msError("Usuario o Contraseña incorrectos. \n Porfavor intente de Nuevo");
+                    //     txtPass.Clear();
+                    //     txtPass_Enter(null, e);
+                    //     //txtPass_Leave(null, e);
+                    // }
+                    msError("");
+                    lblErrorMessage.Visible = false;
                 }
                 else
                     msError("Porfavor ingrese Contraseña");
