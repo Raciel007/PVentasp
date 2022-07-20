@@ -111,7 +111,8 @@
             this.pictureBox1.Image = global::PVentasp.Properties.Resources.Latosito;
             this.pictureBox1.Location = new System.Drawing.Point(69, 77);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(79, 141);
+            this.pictureBox1.Size = new System.Drawing.Size(171, 176);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
