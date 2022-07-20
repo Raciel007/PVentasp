@@ -108,9 +108,10 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = global::PVentasp.Properties.Resources.Latosito;
             this.pictureBox1.Location = new System.Drawing.Point(69, 77);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(179, 232);
+            this.pictureBox1.Size = new System.Drawing.Size(79, 141);
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
