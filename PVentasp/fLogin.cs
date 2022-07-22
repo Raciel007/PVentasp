@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using cNegocios;
 
 namespace PVentasp
 {
-    public partial class Form1 : Form
+    public partial class fLogin : Form
     {
-        public Form1()
+        public fLogin()
         {
             InitializeComponent();
         }
@@ -67,30 +68,40 @@ namespace PVentasp
             {
                 if (txtPass.Text != "Contraseña")
                 {
-                    //// nUsers user = new nUsers();
-                    // var validlogin = user.LoginUser(txtUser.Text.Trim(), txtPass.Text);
-                    // if (validlogin == true)
-                    // {
-                    //     this.Hide();
-                    //  //   fHome frm = new fHome();
-                    //    // frm.FormClosed += Logout;
-                    //     //frm.Show();
-                    // }
-                    // else
-                    // {
-                    //     msError("Usuario o Contraseña incorrectos. \n Porfavor intente de Nuevo");
-                    //     txtPass.Clear();
-                    //     txtPass_Enter(null, e);
-                    //     //txtPass_Leave(null, e);
-                    // }
-                    msError("");
-                    lblErrorMessage.Visible = false;
+                     nUsers user = new nUsers();
+                    var validlogin = user.LoginUser(txtUser.Text.Trim(), txtPass.Text);
+                    if (validlogin == true)
+                    {
+                        this.Hide();
+                        fHome frm = new fHome();
+                        frm.FormClosed += Logout;
+                        frm.Show();
+                    }
+                    else
+                    {
+                        msError("Usuario o Contraseña incorrectos. \n Porfavor intente de Nuevo");
+                        txtPass.Clear();
+                        txtPass_Enter(null, e);
+                        //txtPass_Leave(null, e);
+                    }
+                    //msError("");
+                    //lblErrorMessage.Visible = false;
                 }
                 else
                     msError("Porfavor ingrese Contraseña");
             }
             else
                 msError("Porfavor ingrese Usuario");
+        }
+
+        private void Logout(object sender, FormClosedEventArgs e)
+        {
+            txtPass.Clear();
+            txtPass_Enter(null, e);
+            // txtPass_Leave(null, e);
+            lblErrorMessage.Visible = false;
+            this.Show();
+            // txtPass.Focus();
         }
 
         private void msError(string msg)
