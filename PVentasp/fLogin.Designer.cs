@@ -147,8 +147,9 @@
             this.label3.Size = new System.Drawing.Size(702, 47);
             this.label3.TabIndex = 12;
             // 
-            // Form1
+            // fLogin
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
@@ -165,7 +166,7 @@
             this.MaximumSize = new System.Drawing.Size(720, 430);
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(720, 430);
-            this.Name = "Form1";
+            this.Name = "fLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
