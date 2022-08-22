@@ -16,5 +16,20 @@ namespace PVentasp
         {
             InitializeComponent();
         }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            fUsuarios frm = new fUsuarios();
+            frm.FormClosed += Logout;
+            frm.Show();
+
+        }
+        private void Logout(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+            // txtPass.Focus();
+        }
+
     }
 }
