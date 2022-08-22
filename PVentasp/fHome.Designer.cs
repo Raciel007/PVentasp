@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnUsuarios = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnPoductos = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -47,15 +47,16 @@
             this.btnUsuarios.UseVisualStyleBackColor = true;
             this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
-            // button2
+            // btnPoductos
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.Location = new System.Drawing.Point(547, 101);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(261, 224);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Productos";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnPoductos.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnPoductos.Location = new System.Drawing.Point(547, 101);
+            this.btnPoductos.Name = "btnPoductos";
+            this.btnPoductos.Size = new System.Drawing.Size(261, 224);
+            this.btnPoductos.TabIndex = 1;
+            this.btnPoductos.Text = "Productos";
+            this.btnPoductos.UseVisualStyleBackColor = true;
+            this.btnPoductos.Click += new System.EventHandler(this.btnPoductos_Click);
             // 
             // button3
             // 
@@ -106,7 +107,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPoductos);
             this.Controls.Add(this.btnUsuarios);
             this.MinimumSize = new System.Drawing.Size(930, 600);
             this.Name = "fHome";
@@ -119,7 +120,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnUsuarios;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnPoductos;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;

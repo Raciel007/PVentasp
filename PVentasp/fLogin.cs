@@ -79,7 +79,7 @@ namespace PVentasp
                     }
                     else
                     {
-                        msError("Usuario o Contraseña incorrectos. \n Porfavor intente de Nuevo");
+                        msError("Usuario o Contraseña incorrectos, intente de nuevo");
                         txtPass.Clear();
                         txtPass_Enter(null, e);
                         //txtPass_Leave(null, e);

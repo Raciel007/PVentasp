@@ -32,11 +32,11 @@
             this.txtPass = new System.Windows.Forms.TextBox();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.lblErrorMessage = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblErrorMessage = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,7 +79,7 @@
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.LightGray;
-            this.btnLogin.Location = new System.Drawing.Point(391, 269);
+            this.btnLogin.Location = new System.Drawing.Point(635, 250);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(121, 40);
@@ -87,34 +87,6 @@
             this.btnLogin.Text = "Entrar";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
-            // lblErrorMessage
-            // 
-            this.lblErrorMessage.AutoSize = true;
-            this.lblErrorMessage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblErrorMessage.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblErrorMessage.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblErrorMessage.Image = ((System.Drawing.Image)(resources.GetObject("lblErrorMessage.Image")));
-            this.lblErrorMessage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblErrorMessage.Location = new System.Drawing.Point(282, 211);
-            this.lblErrorMessage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblErrorMessage.Name = "lblErrorMessage";
-            this.lblErrorMessage.Size = new System.Drawing.Size(133, 23);
-            this.lblErrorMessage.TabIndex = 8;
-            this.lblErrorMessage.Text = "ErrorMessage";
-            this.lblErrorMessage.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblErrorMessage.Visible = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = global::PVentasp.Properties.Resources.Latosito;
-            this.pictureBox1.Location = new System.Drawing.Point(69, 77);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(171, 176);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -132,9 +104,9 @@
             this.label2.BackColor = System.Drawing.Color.LightSalmon;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label2.Location = new System.Drawing.Point(0, 353);
+            this.label2.Location = new System.Drawing.Point(0, 303);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(702, 30);
+            this.label2.Size = new System.Drawing.Size(802, 30);
             this.label2.TabIndex = 11;
             // 
             // label3
@@ -144,8 +116,35 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Top;
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(702, 47);
+            this.label3.Size = new System.Drawing.Size(802, 47);
             this.label3.TabIndex = 12;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = global::PVentasp.Properties.Resources.Latosito;
+            this.pictureBox1.Location = new System.Drawing.Point(69, 77);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(171, 176);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // lblErrorMessage
+            // 
+            this.lblErrorMessage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblErrorMessage.Font = new System.Drawing.Font("MS Reference Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblErrorMessage.ForeColor = System.Drawing.Color.DarkRed;
+            this.lblErrorMessage.Image = ((System.Drawing.Image)(resources.GetObject("lblErrorMessage.Image")));
+            this.lblErrorMessage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblErrorMessage.Location = new System.Drawing.Point(282, 199);
+            this.lblErrorMessage.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblErrorMessage.Name = "lblErrorMessage";
+            this.lblErrorMessage.Size = new System.Drawing.Size(474, 42);
+            this.lblErrorMessage.TabIndex = 8;
+            this.lblErrorMessage.Text = "ErrorMessage";
+            this.lblErrorMessage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblErrorMessage.Visible = false;
             // 
             // fLogin
             // 
@@ -153,7 +152,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(702, 383);
+            this.ClientSize = new System.Drawing.Size(802, 333);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -163,9 +162,9 @@
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUser);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(720, 430);
+            this.MaximumSize = new System.Drawing.Size(820, 380);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(720, 430);
+            this.MinimumSize = new System.Drawing.Size(820, 380);
             this.Name = "fLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

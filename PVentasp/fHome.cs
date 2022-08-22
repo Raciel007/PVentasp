@@ -31,5 +31,13 @@ namespace PVentasp
             // txtPass.Focus();
         }
 
+        private void btnPoductos_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            fProductos frm = new fProductos();
+            frm.FormClosed += Logout;
+            frm.Show();
+
+        }
     }
 }
