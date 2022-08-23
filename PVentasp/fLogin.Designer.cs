@@ -49,7 +49,7 @@
             this.txtPass.Location = new System.Drawing.Point(286, 156);
             this.txtPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(226, 32);
+            this.txtPass.Size = new System.Drawing.Size(293, 32);
             this.txtPass.TabIndex = 4;
             this.txtPass.Text = "Contraseña";
             this.txtPass.Enter += new System.EventHandler(this.txtPass_Enter);
@@ -64,7 +64,7 @@
             this.txtUser.Location = new System.Drawing.Point(286, 106);
             this.txtUser.Margin = new System.Windows.Forms.Padding(4);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(226, 32);
+            this.txtUser.Size = new System.Drawing.Size(293, 32);
             this.txtUser.TabIndex = 3;
             this.txtUser.Text = "Usuario";
             this.txtUser.Enter += new System.EventHandler(this.txtUser_Enter);
@@ -93,7 +93,8 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.LightSalmon;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(253, 9);
+            this.label1.ForeColor = System.Drawing.Color.Snow;
+            this.label1.Location = new System.Drawing.Point(311, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(201, 29);
             this.label1.TabIndex = 10;
@@ -102,8 +103,8 @@
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.LightSalmon;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label2.Location = new System.Drawing.Point(0, 303);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(802, 30);
@@ -112,7 +113,6 @@
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.LightSalmon;
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Dock = System.Windows.Forms.DockStyle.Top;
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";

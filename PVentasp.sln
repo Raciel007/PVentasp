@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.28307.1831
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PVentasp", "PVentasp\PVentasp.csproj", "{5832D5DF-F533-47E0-ABC8-7CE0E046CEA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cDatos", "..\..\..\..\..\Bit_Vigila\cDatos\cDatos.csproj", "{9154A072-D2B4-40B1-B2FF-594D36FDACC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cDatos", "cDatos\cDatos.csproj", "{9154A072-D2B4-40B1-B2FF-594D36FDACC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cNegocios", "..\..\..\..\..\Bit_Vigila\cNegocios\cNegocios.csproj", "{4B964D84-0224-4022-A47B-7B77532BD42C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cNegocios", "cNegocios\cNegocios.csproj", "{4B964D84-0224-4022-A47B-7B77532BD42C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "caSoporte", "..\..\..\..\..\Bit_Vigila\cSoporte\caSoporte.csproj", "{03741E8F-C2F9-4664-8D61-F893AFF69DDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "caSoporte", "cSoporte\caSoporte.csproj", "{03741E8F-C2F9-4664-8D61-F893AFF69DDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

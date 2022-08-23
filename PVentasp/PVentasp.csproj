@@ -132,7 +132,7 @@
     <None Include="Resources\Latosito.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\Bit_Vigila\cNegocios\cNegocios.csproj">
+    <ProjectReference Include="..\cNegocios\cNegocios.csproj">
       <Project>{4b964d84-0224-4022-a47b-7b77532bd42c}</Project>
       <Name>cNegocios</Name>
     </ProjectReference>
